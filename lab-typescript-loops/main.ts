@@ -1,14 +1,17 @@
-import { StringManipulationService, NumberService } from './main-service';
+import { StringManipulationService, NumberManipulationService } from './main-service';
 
 export class StringManipulations implements StringManipulationService {
 
     constructor() {}
 
-    public sayHello(word: string): void {
-
+    public print(word: string): void {
+        
         console.log(word);
+        console.log(word.charAt(3));
+        console.log(word.charCodeAt(4));
+        console.log(word.concat("FACEPrep"));
     }
-    public sayHelloWithSpace(sentence:string) : void {
+    public printWithSpace(sentence:string) : void {
         let temp = sentence;
         let str = "";
         for(var i=0; i<temp.length;i++){
@@ -17,7 +20,7 @@ export class StringManipulations implements StringManipulationService {
         console.log(str);
     }
 }
-export class NumberTypes implements NumberService {
+export class NumberTypes implements NumberManipulationService {
     constructor() {}
     
     public findPrime(num = 5): string {
@@ -64,5 +67,6 @@ export class NumberTypes implements NumberService {
 }
 
 let hello = new StringManipulations();
-hello.sayHello("Venkatesh");
-hello.sayHelloWithSpace("Venkatesh");
+hello.print("ProGrads");
+hello.printWithSpace("ProGrads");
+

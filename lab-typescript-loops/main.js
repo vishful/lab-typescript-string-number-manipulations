@@ -3,10 +3,12 @@ exports.__esModule = true;
 var StringManipulations = /** @class */ (function () {
     function StringManipulations() {
     }
-    StringManipulations.prototype.sayHello = function (word) {
+    StringManipulations.prototype.print = function (word) {
         console.log(word);
+        console.log(word.charAt(3));
+        console.log(word.charCodeAt(4));
     };
-    StringManipulations.prototype.sayHelloWithSpace = function (sentence) {
+    StringManipulations.prototype.printWithSpace = function (sentence) {
         var temp = sentence;
         var str = "";
         for (var i = 0; i < temp.length; i++) {
@@ -64,5 +66,5 @@ var NumberTypes = /** @class */ (function () {
 }());
 exports.NumberTypes = NumberTypes;
 var hello = new StringManipulations();
-hello.sayHello("Venkatesh");
-hello.sayHelloWithSpace("Venkatesh");
+hello.print("ProGrads");
+hello.printWithSpace("ProGrads");

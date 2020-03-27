@@ -1,9 +1,9 @@
 export interface StringManipulationService {
-    sayHello(word:string): void;
-    sayHelloWithSpace(sentence:string) : void;
+    print(word:string): void;
+    printWithSpace(sentence:string) : void;
 }
 
-export interface NumberService {
+export interface NumberManipulationService {
     findPrime() : string;
     findMagic() : string;
     findVowel() : number;
