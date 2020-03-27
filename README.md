@@ -70,6 +70,8 @@ It prints a message indicating the deletion.
 It returns the number of elements in the list and prints that number in the console as well.
 Iteration #2: Class with one Interface
 
+## Progression #2: Numbers
+
 Happy coding!
 
 Extra Resources
