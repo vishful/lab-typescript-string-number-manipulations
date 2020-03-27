@@ -9,9 +9,11 @@ After this lesson, you will be able to:
 - Implement two different interfaces and use them from classes.
 
 ## Requirements
-Fork this repo.
-Clone this repo into your ~/code/labs folder.
-Install TypeScript on your computer
+
+- Fork this repo.
+- Clone this repo.
+- Install TypeScript on your computer
+
 ```$ npm install -g typescript```
 
 ## Submission
