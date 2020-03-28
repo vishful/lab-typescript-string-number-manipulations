@@ -3,7 +3,7 @@
 # ProGrad Lab | Typescript - Strings and Numbers
 
 ## Introduction
-In this lab, we are going to work with strings and numbers in TypeScript. We are going to create different lists following different strategies with TypeScript. In the process, we will cover several important basic topics such as variable types, functions, classes, and interfaces.
+In this lab, we are going to work with strings and numbers in TypeScript. We are going to create different lists following different strategies using TypeScript. In the process, we will cover several important basic topics such as variable types, functions, classes, and interfaces.
 
 Project Structure
 The project structure will be as follows:
@@ -65,7 +65,7 @@ To compile the project
     - printWithSpace(sentence:string) : void;
     - findVowel(str: string) : void;
 
-## PROGRESSION #2: 
+## Progression #2: 
 - Go to main.ts.
 - Create a class called as StringManipulations which should implement the StringManipulationService.
 - Your class should implement all the three methods.
@@ -80,14 +80,14 @@ To compile the project
     - printWithSpace(sentence:string) : void method should take string as input and display the given string by adding space between every character.
     - findVowel(str: string) : void should take string as input and display the number of vowels in a given string.
     
-## PROGRESSION #3: 
+## Progression #3: 
 - Go to main-service.ts.
 - Create an interface called NumberManipulationService and don't forget to export it.
 - Define the following methods inside the StringManipulationService,
     - findPrime(num: number) : void;
     - findMagic(num: number) : void;
     
-## PROGRESSION #4:
+## Progression #4:
 - Go to main.ts.
 - Create a class called as NumbersManipulations which should implement the NumberManipulationService.
 - Your class should implement all the two methods.
