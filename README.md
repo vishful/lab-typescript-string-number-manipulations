@@ -42,7 +42,7 @@ In the pull request name, add your ProGrad Id and last names separated by a dash
 ![Complile&Run](https://i1.faceprep.in/ProGrad/typescript-lab-image1.png)
 
 ## Introduction
-When we are studying, it's very common to strings and numbers so we remember to do specific exercises and tasks. Some of them are more important than others, but we have to remember all of them.
+When we are studying, it's very common that we use strings and numbers, so we remember to do specific exercises and tasks. Some of them are more important than others, but we have to remember all of them.
 
 We are going to help you with this. How? We are going to work with strings and numbers in TypeScript. We are going to create different lists following different strategies with TypeScript. In the process, we will cover several important basic topics: variable types, functions, classes, and interfaces.
 
