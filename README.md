@@ -74,7 +74,4 @@ Iteration #2: Class with one Interface
 
 ## Progression #2: Numbers
 
-/Happy Coding ProGrad ❤️
-
-Extra Resources
-Typescript Documentation
+Happy Coding ProGrad ❤️
