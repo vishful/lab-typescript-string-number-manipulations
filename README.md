@@ -32,10 +32,10 @@ In the pull request name, add your ProGrad Id and last names separated by a dash
 ## How to run the project
 - To compile the project
 - Open the terminal inside Vscode editor and execute the following command.
-``` tsc main.ts ```
+    - ``` tsc main.ts ```
 - Once you complie your typescript code, main.js file get generated automatically.
 - Now run the main.js file to see the output. To run the file, use the command given below
-``` node main.js ```
+    - ``` node main.js ```
 - You can see the output in the terminal.
 - Also open the index.html and see the output in browser console.
 
