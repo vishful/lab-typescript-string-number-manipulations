@@ -56,34 +56,47 @@ starter-code/
     └── main.ts
 
 ```
-You are going to work over the *.ts files in the different folders, one for each progression that we are going to cover.
+You are going to work over the *.ts files.
 
 Note: Remember that the *.js files are generated every time we save the TypeScript files in our solution.
 
-## Progression #1: Strings
-In the first iteration of the exercise, we are going to work with Strings. Let's consider what we need to implement all the necessary string functions.
-
-Once you have implemeneted all these features, you will have the first iteration completetd.
-
-Tasks
-
+## Progression #1: 
 - Go to main-service.ts.
-Create an addTask function:
-It receives a string as a parameter called task.
-It adds the task to the array.
-It prints a message indicating the insertion.
-It returns the number of elements in the list and prints that number in the console as well.
-Create a listAllTasks function:
-It iterates over all the tasks in the list.
-It prints each list item in the console.
-Create a deleteTask function:
-It receives a string as a parameter called task.
-It removes that string from the array.
-It returns the number of elements in the list after the deletion.
-It prints a message indicating the deletion.
-It returns the number of elements in the list and prints that number in the console as well.
-Iteration #2: Class with one Interface
+- Create an Interface called StringManipulationService and don't forget to export it.
+- Define the following methods inside the StringManipulationService,
+    - print(word:string): void;
+    - printWithSpace(sentence:string) : void;
+    - findVowel(str: string) : void
 
-## Progression #2: Numbers
+## PROGRESSION #2: 
+- Go to main.ts.
+- Create a class called as StringManipulations which should implement the StringManipulationService.
+- Your class should implement all the three methods.
+- print(word:string): void method should take string as input and it should perform the following operations
+    - Display the given string without any modifications(use console.log to print)
+    - Display the given string in uppercase.
+    - Display the given string in lowercase.
+    - Display the character at a particular position in a given string.
+    - Concat the given string with another string.
+    - Slice the given string and display.
+    - Find the length of the given string.
+- printWithSpace(sentence:string) : void method should take string as input and display the given string by adding space between every character.
+- findVowel(str: string) : void should take string as input and display the number of vowels in a given string.
+    
+## PROGRESSION #3: 
+- Go to main-service.ts.
+- Create an Interface called NumberManipulationService and don't forget to export it.
+- Define the following methods inside the StringManipulationService,
+    - findPrime(num: number) : void;
+    - findMagic(num: number) : void;
+    
+## PROGRESSION #4:
+- Go to main.ts.
+- Create a class called as NumbersManipulations which should implement the NumberManipulationService.
+- Your class should implement all the two methods.
+- findPrime(num: number) : void method should check whether the given number is a prime number or not
+- findMagic(num: number) : void method to check whether the given number is a magic number. A magic number is a number in which you need to repeatedly add the numbers until a single digit is reached. if the number is equivalent to 1, then the given number is a magic number, else display it is not a magic number.
+for example, consider a number 199 -> 1 + 9 + 9 = 19 -> 1 + 9 = 10 -> 1 + 0 = 1. So 199 is a magic number.
+    
 
 Happy Coding ProGrad ❤️
