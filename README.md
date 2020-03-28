@@ -1,4 +1,6 @@
-# lab-typescript-string-number-manipulations
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
+
+# ProGrad Lab | Typescript Introduction - Strings and Numbers
 
 ## Learning Goals
 
@@ -72,7 +74,7 @@ Iteration #2: Class with one Interface
 
 ## Progression #2: Numbers
 
-Happy coding!
+/Happy Coding ProGrad ❤️
 
 Extra Resources
 Typescript Documentation
