@@ -29,6 +29,17 @@ Navigate to your repo and create a pull request from your master branch to the o
 
 In the pull request name, add your ProGrad Id and last names separated by a dash "-"
 
+## How to run the project
+- To compile the project
+- Open the terminal inside Vscode editor and execute the following command.
+``` tsc main.ts ```
+- Once you complie your typescript code, main.js file get generated automatically.
+- Now run the main.js file to see the output. To run the file, use the command given below
+``` node main.js ```
+- You can see the output in the terminal.
+- Also open the index.html and see the output in browser console.
+!(https://i1.faceprep.in/ProGrad/typescript-lab-image1.png)
+
 ## Introduction
 When we are studying, it's very common to strings and numbers so we remember to do specific exercises and tasks. Some of them are more important than others, but we have to remember all of them.
 
@@ -55,7 +66,7 @@ Once you have implemeneted all these features, you will have the first iteration
 
 Tasks
 
-- Try to.
+- Go to main-service.ts.
 Create an addTask function:
 It receives a string as a parameter called task.
 It adds the task to the array.
