@@ -53,7 +53,7 @@ Once you have implemeneted all these features, you will have the first iteration
 
 Tasks
 
-- Create an .
+- Try to.
 Create an addTask function:
 It receives a string as a parameter called task.
 It adds the task to the array.
