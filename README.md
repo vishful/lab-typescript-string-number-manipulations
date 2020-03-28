@@ -38,7 +38,8 @@ In the pull request name, add your ProGrad Id and last names separated by a dash
 ``` node main.js ```
 - You can see the output in the terminal.
 - Also open the index.html and see the output in browser console.
-!(https://i1.faceprep.in/ProGrad/typescript-lab-image1.png)
+
+![Complile&Run](https://i1.faceprep.in/ProGrad/typescript-lab-image1.png)
 
 ## Introduction
 When we are studying, it's very common to strings and numbers so we remember to do specific exercises and tasks. Some of them are more important than others, but we have to remember all of them.
